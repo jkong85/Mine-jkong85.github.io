@@ -1,14 +1,29 @@
 body {
-  margin: 0;
-  padding: 0;
-  background: #151515 url("../images/bkg.png") 0 0;
-  color: #eaeaea;
-  font: 16px;
-  line-height: 1.5;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    margin: 0;
+    padding: 0;
+    background: #151515 url("../images/bkg.png") 0 0;
+    color: #eaeaea;
+    font: 16px;
+    line-height: 1.5;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    border-style: solid;
+    border-width: thick;        
+    border-color: orange;
 }
 
-/* General & 'Reset' Stuff */
+/*margin: 2em;*/
+body {
+    /*
+    padding : 1cm 1cm 2cm 1cm;
+    font-size : medium;
+    font-family : Luxi Serif, Lucida Serif, Lucida Sans, Verdana, Courier, helvetica, monospace, sans-serif;
+    background : white;
+    border-style: solid;
+    border-width: thick;        
+    border-color: orange;
+    */
+}
+
 
 .container {
   width: 90%;
