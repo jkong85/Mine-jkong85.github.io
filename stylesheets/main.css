@@ -3,10 +3,10 @@ BODY {
 	padding : 1cm 1cm 2cm 1cm;
 	font-size : medium;
 	font-family : Luxi Serif, Lucida Serif, Lucida Sans, Verdana, Courier, helvetica, sans-serif ;
-	background : white;
-	border-style: solid;
-        border-width: thick;        /* sets border width on all sides */
-        border-color: orange;
+    background : white;
+    border-style: solid;
+    border-width: thick;        /* sets border width on all sides */
+    border-color: orange;
 }
 
 BODY.Home{
@@ -40,6 +40,7 @@ P.mmix{
 
 OL{
 	/*list-style-type: cjk-ideographic;*/
+    list-style-type: inherit;
 	padding-bottom : 4px;
 	text-indent : 0;
 	font-size : medium;
@@ -64,7 +65,8 @@ A{
 
 A:Hover {
 	text-decoration: none;
-	background-color: bisque;
+	/*background-color: bisque;*/
+	background-color: black;
 	caption-side : left;
 }
 
